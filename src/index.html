@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
   <title>Document</title>
   <!-- This title must be changed in webpack.config.js plugins section and in package.json -->
 </head>
-<body>
 
-  
+<body>
+  <div class="container">
+    <div class="bigBox">
+      <h1>MARS ROVER: PHOTO OF THE DAY</h1>
+      <label for="date">Enter a date:</label>
+      <p>Example: 2021-01-31
+        <br>
+        <input id="date" type="text">
+        <br>
+        <br>
+        <button class="btn-success" id="marsQuery">TAKE ME TO THE RED PLANET!</button>
+      <div class="showErrors"></div>
+      <img id="showApod">
+    </div>
 </body>
+
 </html>
